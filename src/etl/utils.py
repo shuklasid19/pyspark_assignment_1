@@ -1,6 +1,6 @@
 
 from pyspark.sql import *
-
+from pyspark.sql import functions as F
 
 def spark_driver():
     """it will start the session of our application
@@ -52,3 +52,7 @@ def product_expenses(combined_df):
     """it will do groupby operation and the total sum of product of each user"
     """
     return combined_df.groupBy('user_id', 'product_description').sum('price')
+    
+def max_expense(combined_df):
+    exp = combined_df.select(F.max('price').alias("max")).collect()[0].asDict()
+    return exp['max']

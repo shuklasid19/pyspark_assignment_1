@@ -1,10 +1,10 @@
 Metadata-Version: 2.1
 Name: src
 Version: 0.0.2
-Summary: A small package for DVC ML pipeline demo
+Summary: A small pyspark-app
 Home-page: https://github.com/entbappy/DVC-ML-DEMO
-Author: Bappy Ahmed
-Author-email: entbappy73@gmail.com
+Author: sid
+Author-email: shuklasid19@gmail.com
 License: UNKNOWN
 Platform: UNKNOWN
 Requires-Python: >=3.7

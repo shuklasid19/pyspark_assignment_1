@@ -1,2 +1,6 @@
 # local packages -
 -e .
+
+#global
+pyspark
+unittest
