@@ -10,7 +10,7 @@ setup(
     description="A small pyspark-app",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/entbappy/DVC-ML-DEMO",
+    url="https://github.com/shuklasid19/pyspark_assignment_1",
     author_email="shuklasid19@gmail.com",
     packages=["src"],
     python_requires=">=3.7",
